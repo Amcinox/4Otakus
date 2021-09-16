@@ -59,14 +59,25 @@ class AnimesViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(animes[indexPath.row].name)
+        
+        performSegue(withIdentifier: "toEpisodes", sender: self)
     }
-    /*
-     // Override to support conditional editing of the table view.
-     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the specified item to be editable.
-     return true
-     }
-     */
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! EpisodesViewController
+        
+        if let indexPath = tableView.indexPathForSelectedRow {
+            destinationVC.selectedAnime = animes[indexPath.row]
+        }
+    }
+    
+//
+//     // Override to support conditional editing of the table view.
+//     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+//     // Return false if you do not want the specified item to be editable.
+//     return true
+//     }
+    
     
     /*
      // Override to support editing the table view.
