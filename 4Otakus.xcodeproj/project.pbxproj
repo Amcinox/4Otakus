@@ -13,6 +13,10 @@
 		84BF793426F3D272000D6755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF793226F3D272000D6755 /* Main.storyboard */; };
 		84BF793626F3D275000D6755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF793526F3D275000D6755 /* Assets.xcassets */; };
 		84BF793926F3D275000D6755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF793726F3D275000D6755 /* LaunchScreen.storyboard */; };
+		84BF794326F3D355000D6755 /* AnimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF794226F3D355000D6755 /* AnimesViewController.swift */; };
+		84BF794626F3D386000D6755 /* AnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF794426F3D386000D6755 /* AnimeCell.swift */; };
+		84BF794726F3D386000D6755 /* AnimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BF794526F3D386000D6755 /* AnimeCell.xib */; };
+		84BF794A26F3D65A000D6755 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF794926F3D65A000D6755 /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		84BF793526F3D275000D6755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BF793826F3D275000D6755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BF793A26F3D275000D6755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF794226F3D355000D6755 /* AnimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimesViewController.swift; sourceTree = "<group>"; };
+		84BF794426F3D386000D6755 /* AnimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCell.swift; sourceTree = "<group>"; };
+		84BF794526F3D386000D6755 /* AnimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimeCell.xib; sourceTree = "<group>"; };
+		84BF794926F3D65A000D6755 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				84BF792C26F3D272000D6755 /* AppDelegate.swift */,
 				84BF792E26F3D272000D6755 /* SceneDelegate.swift */,
-				84BF793026F3D272000D6755 /* ViewController.swift */,
-				84BF793226F3D272000D6755 /* Main.storyboard */,
+				84BF794826F3D43E000D6755 /* Model */,
+				84BF794126F3D283000D6755 /* Controller */,
+				84BF794026F3D27C000D6755 /* View */,
 				84BF793526F3D275000D6755 /* Assets.xcassets */,
 				84BF793726F3D275000D6755 /* LaunchScreen.storyboard */,
 				84BF793A26F3D275000D6755 /* Info.plist */,
 			);
 			path = 4Otakus;
+			sourceTree = "<group>";
+		};
+		84BF794026F3D27C000D6755 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84BF794426F3D386000D6755 /* AnimeCell.swift */,
+				84BF794526F3D386000D6755 /* AnimeCell.xib */,
+				84BF793226F3D272000D6755 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84BF794126F3D283000D6755 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84BF793026F3D272000D6755 /* ViewController.swift */,
+				84BF794226F3D355000D6755 /* AnimesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84BF794826F3D43E000D6755 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84BF794926F3D65A000D6755 /* Anime.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BF794726F3D386000D6755 /* AnimeCell.xib in Resources */,
 				84BF793926F3D275000D6755 /* LaunchScreen.storyboard in Resources */,
 				84BF793626F3D275000D6755 /* Assets.xcassets in Resources */,
 				84BF793426F3D272000D6755 /* Main.storyboard in Resources */,
@@ -138,7 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BF793126F3D272000D6755 /* ViewController.swift in Sources */,
+				84BF794326F3D355000D6755 /* AnimesViewController.swift in Sources */,
+				84BF794A26F3D65A000D6755 /* Anime.swift in Sources */,
 				84BF792D26F3D272000D6755 /* AppDelegate.swift in Sources */,
+				84BF794626F3D386000D6755 /* AnimeCell.swift in Sources */,
 				84BF792F26F3D272000D6755 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
