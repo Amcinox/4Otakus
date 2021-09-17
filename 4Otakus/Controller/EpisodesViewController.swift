@@ -28,19 +28,6 @@ class EpisodesViewController: UIViewController,UITableViewDataSource,UITableView
         animePoster.image = UIImage(named: selectedAnime?.image ?? "")!
         title = selectedAnime?.name
     }
-    
-    
-   
-    
-    
-    
-   
-    
-
-   
-  
-    
-   
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return episodes.count
     }

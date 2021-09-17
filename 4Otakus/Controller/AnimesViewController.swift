@@ -17,10 +17,6 @@ class AnimesViewController: UITableViewController {
         super.viewDidLoad()
         
         tableView.register(UINib(nibName: "AnimeCell", bundle: nil), forCellReuseIdentifier: "animeCell")
-        
-       
-        
-        
         animes.append(Animes(name: "One Piece", image: "one_piece"))
         animes.append(Animes(name: "Black Clover", image: "black_clover"))
         animes.append(Animes(name: "Bleach", image: "bleach"))
