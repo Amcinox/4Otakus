@@ -79,8 +79,8 @@
                             <constraint firstItem="9HI-PE-45j" firstAttribute="top" secondItem="2dn-ww-FaQ" secondAttribute="top" id="xlF-ch-OwT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="6Pr-S4-mC3">
-                        <barButtonItem key="leftBarButtonItem" title="رجوع" id="WmG-6B-Cig">
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="6Pr-S4-mC3">
+                        <barButtonItem key="leftBarButtonItem" enabled="NO" title="رجوع" id="up0-Nx-IQe">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="suit.heart" catalog="system" id="jJd-EF-MP1">
