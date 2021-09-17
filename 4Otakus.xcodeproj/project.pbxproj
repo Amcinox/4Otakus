@@ -18,6 +18,7 @@
 		84BF794726F3D386000D6755 /* AnimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BF794526F3D386000D6755 /* AnimeCell.xib */; };
 		84BF794A26F3D65A000D6755 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF794926F3D65A000D6755 /* Anime.swift */; };
 		84BF795026F400BB000D6755 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF794F26F400BB000D6755 /* EpisodesViewController.swift */; };
+		84BF795E26F4EC47000D6755 /* EpisodesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF795D26F4EC47000D6755 /* EpisodesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		84BF794526F3D386000D6755 /* AnimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimeCell.xib; sourceTree = "<group>"; };
 		84BF794926F3D65A000D6755 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 		84BF794F26F400BB000D6755 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		84BF795D26F4EC47000D6755 /* EpisodesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				84BF794426F3D386000D6755 /* AnimeCell.swift */,
 				84BF794526F3D386000D6755 /* AnimeCell.xib */,
 				84BF793226F3D272000D6755 /* Main.storyboard */,
+				84BF795D26F4EC47000D6755 /* EpisodesCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BF793126F3D272000D6755 /* ViewController.swift in Sources */,
+				84BF795E26F4EC47000D6755 /* EpisodesCell.swift in Sources */,
 				84BF794326F3D355000D6755 /* AnimesViewController.swift in Sources */,
 				84BF795026F400BB000D6755 /* EpisodesViewController.swift in Sources */,
 				84BF794A26F3D65A000D6755 /* Anime.swift in Sources */,
